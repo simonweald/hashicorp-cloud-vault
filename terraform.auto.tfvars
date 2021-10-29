@@ -1,0 +1,5 @@
+hvn_id         = "vault-hvn"
+cluster_id     = "hcp-vault"
+region         = "eu-central-1"
+cloud_provider = "aws"
+tier           = "dev"
