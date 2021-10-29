@@ -10,3 +10,7 @@ resource "hcp_vault_cluster" "hcp_vault" {
   tier            = var.tier
   public_endpoint = true
 }
+
+resource "hcp_vault_cluster_admin_token" "setup_token" {
+  cluster_id = var.cluster_id
+}
